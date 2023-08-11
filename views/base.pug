@@ -1,0 +1,20 @@
+//- layout.pug
+html
+  head
+    title sree dance academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                | HDA
+            li #[a(href="/") home] 
+            li #[a(href="/") about] 
+            li #[a(href="/") class info] 
+            li #[a(href="/") contact] 
+  
+    block content
+    footer#footer 
+        | copyright @ sree.com,all rights reserved   

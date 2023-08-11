@@ -1,0 +1,45 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    
+    section#introsection 
+        div welcome to sree academy 
+        div.small eat sleep dance repeat
+    section#missionsection 
+        h2 our mission  
+        div.cards
+            h3 dance perfection      
+            div.card-box
+                div.card-img 
+                    img(src='/static/img/1.png')
+                div.card-content
+                    p this is the best dance academy of universe    
+        div.cards
+            h3 dance the way u like 
+            div.card-box
+                div.card-img 
+                    img(src='/static/img/2.png')
+                div.card-content
+                    p this is the best dance academy of universe   
+        div.cards
+            h3 expert teaching       
+            div.card-box
+                div.card-img 
+                    img(src='/static/img/3.png')
+                div.card-content
+                    p this is the best dance academy of universe                    
+    section#sponsersection 
+        h2 our sponsors
+        div#sponsors
+            img(src="/static/img/logo1.png" , class="spimage")
+            img(src="/static/img/logo2.png" , class="spimage")
+            img(src="/static/img/logo3.png" , class="spimage")
+            img(src="/static/img/logo4.png" , class="spimage")
+    footer#footer 
+        | copyright @ sree.com,all rights reserved                 
+    script
+      include ../static/index.js
